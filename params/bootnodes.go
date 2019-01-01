@@ -58,4 +58,5 @@ var DiscoveryV5Bootnodes = []string{
 
 var BookingcoinBootnodes = []string{
 	"enode://7cea88a817ad26e5c6f8a57d2c307634dbcab97fff073e1c3fdb2c1b1101cfc5ab95d7d777df43715bebf47de90d83a22b132f759d3cf35cdf7daf470a77b778@95.179.146.158:30303",
+	"enode://8ab4e3755f702a358ec8feaae92267b99d774f0785909725bbd29254bbfbc9b3b0bc8801d0ab2442b3a54717db868f00b7ecabfa7a30dd23d4272d525d9ac132@188.166.43.138:30303",	
 }
