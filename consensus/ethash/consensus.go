@@ -41,11 +41,11 @@ var (
 	FrontierBlockReward       = big.NewInt(5e+18) // Block reward in wei for successfully mining a block
 	ByzantiumBlockReward      = big.NewInt(3e+18) // Block reward in wei for successfully mining a block upward from Byzantium
 	ConstantinopleBlockReward = big.NewInt(2e+18) // Block reward in wei for successfully mining a block upward from Constantinople
-	CLOMinerReward            = new(big.Int).Mul(big.NewInt(1), big.NewInt(1e+18)) // Block reward in wei for successfully mining a block upward for Bookingcoin Network
-	CLOTreasuryReward         = new(big.Int).Mul(big.NewInt(0.25), big.NewInt(1e+18)) // Block reward in wei for successfully mining a block upward for Bookingcoin Network
-	CLOStakeReward            = new(big.Int).Mul(big.NewInt(0.05), big.NewInt(1e+18))  // Block reward in wei for successfully mining a block upward for Bookingcoin Network
-	CLOHF1TreasuryReward      = new(big.Int).Mul(big.NewInt(0.05), big.NewInt(1e+18))  // Block reward in wei for successfully mining a block upward for Bookingcoin Network
-	CLOHF1StakeReward         = new(big.Int).Mul(big.NewInt(0.25), big.NewInt(1e+18)) // Block reward in wei for successfully mining a block upward for Bookingcoin Network
+	CLOMinerReward            = new(big.Int).Mul(big.NewInt(6), big.NewInt(1e+18)) // Block reward in wei for successfully mining a block upward for Bookingcoin Network
+	CLOTreasuryReward         = new(big.Int).Mul(big.NewInt(2), big.NewInt(1e+18)) // Block reward in wei for successfully mining a block upward for Bookingcoin Network
+	CLOStakeReward            = new(big.Int).Mul(big.NewInt(1), big.NewInt(1e+18))  // Block reward in wei for successfully mining a block upward for Bookingcoin Network
+	CLOHF1TreasuryReward      = new(big.Int).Mul(big.NewInt(1), big.NewInt(1e+18))  // Block reward in wei for successfully mining a block upward for Bookingcoin Network
+	CLOHF1StakeReward         = new(big.Int).Mul(big.NewInt(1), big.NewInt(1e+18)) // Block reward in wei for successfully mining a block upward for Bookingcoin Network
 	CLOTreasuryAddress 		  = common.HexToAddress("0x93b3ff3f245504dD746851629aE0fcB35afbC91F")
 	CLOStakeAddress			  = common.HexToAddress("0xd5D1c97222651a6bcfFA94a441c097F5FDDDb7a7")
 	CLOHF1StakeAddress        = common.HexToAddress("0x0f036de1Cf325685a36B8f3623e80A7F29EE33Bd")
