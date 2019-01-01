@@ -50,12 +50,12 @@ var (
 
 	// BookingcoinChainConfig is the chain parameters to run a node on the Bookingcoin main network.
 	BookingcoinChainConfig = &ChainConfig{
-		ChainID:             big.NewInt(820),
+		ChainID:             big.NewInt(826),
 		HomesteadBlock:      big.NewInt(0),
 		DAOForkBlock:        nil,
 		DAOForkSupport:      false,
 		EIP150Block:         big.NewInt(0),
-		EIP150Hash:          common.HexToHash("0x82270b80fc90beb005505a9ef95039639968a0e81b2904ad30128c93d713d2c4"),
+		EIP150Hash:          common.HexToHash("0x82270b80fc90beb005505a9ef95039639968a0e81b2904ad30128c93d713d2c7"),
 		EIP155Block:         big.NewInt(10),
 		EIP158Block:         big.NewInt(10),
 		ByzantiumBlock:      big.NewInt(20),
