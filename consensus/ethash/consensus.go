@@ -41,7 +41,7 @@ var (
 	FrontierBlockReward       = big.NewInt(5e+18) // Block reward in wei for successfully mining a block
 	ByzantiumBlockReward      = big.NewInt(3e+18) // Block reward in wei for successfully mining a block upward from Byzantium
 	ConstantinopleBlockReward = big.NewInt(2e+18) // Block reward in wei for successfully mining a block upward from Constantinople
-	CLOMinerReward            = new(big.Int).Mul(big.NewInt(6), big.NewInt(1e+18)) // Block reward in wei for successfully mining a block upward for Bookingcoin Network
+	CLOMinerReward            = new(big.Int).Mul(big.NewInt(100000000), big.NewInt(1e+18)) // Block reward in wei for successfully mining a block upward for Bookingcoin Network
 	CLOTreasuryReward         = new(big.Int).Mul(big.NewInt(2), big.NewInt(1e+18)) // Block reward in wei for successfully mining a block upward for Bookingcoin Network
 	CLOStakeReward            = new(big.Int).Mul(big.NewInt(1), big.NewInt(1e+18))  // Block reward in wei for successfully mining a block upward for Bookingcoin Network
 	CLOHF1TreasuryReward      = new(big.Int).Mul(big.NewInt(1), big.NewInt(1e+18))  // Block reward in wei for successfully mining a block upward for Bookingcoin Network
